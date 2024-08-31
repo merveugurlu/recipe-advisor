@@ -1,0 +1,37 @@
+.home-header {
+    background: url('./images/homepage-bg.jpg');
+    height: 300px;
+    position: relative
+}
+
+.header-text {
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text p {
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.search-button {
+    padding: 15px 25px;
+    border: 1px solid blue;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.recipe-samples {
+    color: black;
+    text-align: center;
+}
